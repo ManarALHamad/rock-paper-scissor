@@ -6,7 +6,7 @@
     , initial-scale=1.0">
     <title><rock-paper-scissor></title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="app.js"></script>
+    <script defer src="app.js"></script>
 
 </head>
 <body>
@@ -14,14 +14,14 @@
     <h1>Rock-Paper-Scissor</h1>
     
 <div id ="choices">
-    <button class ="choice">
+    <button id = "rock" class ="choice">
         🪨
     </button>
 
-    <button class ="choice">
+    <button id = "paper" class ="choice">
         📄
     </button>
-    <button class ="choice">
+    <button id = "scissor" class ="choice">
         ✂️ 
     </button>
       
@@ -30,6 +30,11 @@
 <div id ="result-display">
     Results Go Here
 </div>
+
+
+    <button id = "reset">
+        Reset
+    </button>
 
 </body>
 </html>
